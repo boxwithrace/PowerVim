@@ -436,3 +436,7 @@ function! GenMarkdownSectionNum()
   " echo lvl sect out
   echo out
 endfunc
+
+let Tlist_Show_One_File=1
+let Tlist_Exit_OnlyWindow=1
+let Tlist_Ctags_Cmd="/usr/bin/ctags"
