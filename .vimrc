@@ -2,6 +2,9 @@
 "
 " 定义快捷键的前缀，即<Leader>
 let mapleader=";"
+set tags +=~/.vim/tags/systags " C lib tags
+set tags +=~/.vim/tags/cpptags " Cpp lib tags
+set tags +=~/.vim/tags/kerneltags " Cpp lib tags
 
 " pathogen plugin manager
 execute pathogen#infect()
