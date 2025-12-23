@@ -1,8 +1,8 @@
-" Hello，我是PowerVim的作者，程序员Carl，欢迎关注我的微信公众号：代码随想录 
-"
 " 定义快捷键的前缀，即<Leader>
 let mapleader=";"
-
+nnoremap <F3> :TlistOpen<CR>
+nnoremap <F2> :tabnew<CR>
+:set tags=./workplace/git_repo/steel-mountain/tags
 " pathogen plugin manager
 execute pathogen#infect()
 " syntax on
@@ -39,10 +39,10 @@ set nocp
 
 "set encoding=utf-8
 ""set encoding=gb2312
-set langmenu=zh_CN.gb2312
-language message zh_CN.gb2312
+set langmenu=en_US
+" language message en_US
 
-set fileencoding=gbk2312
+set fileencoding=utf-8
 set ts=4
 set sw=4
 set smartindent
