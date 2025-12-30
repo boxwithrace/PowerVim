@@ -1,8 +1,13 @@
 " 定义快捷键的前缀，即<Leader>
 let mapleader=";"
+
 nnoremap <F3> :TlistOpen<CR>
 nnoremap <F2> :tabnew<CR>
-:set tags=./workplace/git_repo/steel-mountain/tags
+
+set tags +=~/.vim/tags/systags " C lib tags
+set tags +=~/.vim/tags/cpptags " Cpp lib tags
+set tags +=~/.vim/tags/kerneltags " Cpp lib tags
+
 " pathogen plugin manager
 execute pathogen#infect()
 " syntax on
